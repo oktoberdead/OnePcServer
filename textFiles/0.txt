@@ -1,7 +1,1 @@
 0
-Server opened output
-a message from server :)
-another one :)
-hey boy, nice to meet you!
-anyway, gotta go, cya <3
-Server closed output

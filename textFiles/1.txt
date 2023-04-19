@@ -1,5 +1,1 @@
 1
-Client opened output
-hey server, i'm client! 
-me sad.
-Client closed output
