@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include <Windows.h>
-#include "C:\Users\sobir\source\repos\NewRepo\class\client.h"
+#include "..\..\class\client.h"
 using namespace std;
 
 class ServerClient : public Client{
@@ -36,9 +36,8 @@ int main()
 	HWND console = GetConsoleWindow();
 	system("MODE CON COLS=50 LINES=35");
 	MoveWindow(console, 30, 30, 450, 600, TRUE);
-
-	string outp = "C:\\Users\\sobir\\source\\repos\\NewRepo\\textFiles\\0.txt";
-	string inp = "C:\\Users\\sobir\\source\\repos\\NewRepo\\textFiles\\1.txt";
+	string outp = "..\\..\\textFiles\\0.txt";
+	string inp = "..\\..\\textFiles\\1.txt";
 	ServerClient Server("Server", 1, inp, outp);
 	
 	while (1) {

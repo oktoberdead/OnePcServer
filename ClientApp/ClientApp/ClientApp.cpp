@@ -3,11 +3,11 @@
 #include <string>
 #include <vector>
 #include <Windows.h>
-#include "C:\Users\sobir\source\repos\NewRepo\class\client.h"
+#include "..\..\class\client.h"
 using namespace std;
 
-string inp = "C:\\Users\\sobir\\source\\repos\\NewRepo\\textFiles\\0.txt";
-string outp = "C:\\Users\\sobir\\source\\repos\\NewRepo\\textFiles\\1.txt";
+string inp = "..\\..\\textFiles\\0.txt";
+string outp = "..\\..\\textFiles\\1.txt";
 
 
 enum Commands {
@@ -26,7 +26,7 @@ int main()
 	MoveWindow(console, 500, 30, 450, 600, TRUE);
 	Client UserClient("User", inp, outp);
 
-	/*
+	
 	while (1) {
 		char inp;
 		cin >> inp;
@@ -54,7 +54,7 @@ int main()
 			break;
 		}
 	}
-	*/
+	
 
 
 
